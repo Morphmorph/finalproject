@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.container{
+
+    min-height: 100vh;
+    display: flex;
+    margin-top: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.container .content{
+    text-align: center;
+}
+
+.container .content h3{
+    font-size: 50px;
+    color: firebrick;
+}
+
+.container .content h3 span{
+    color: blueviolet;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.container .content h1 span{
+  color: rgb(207, 0, 114);
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+.container .content p{
+    color: saddlebrown;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container .content .btn{
+  justify-content: flex-end;
+    display: inline-block;
+    padding: 0px 25px;
+    font-weight: 900;
+    font-size: 20px;
+    background: rgb(90, 85, 85);
+    color: white;
+}
+
+.container .content .btn:hover{
+  background: gold;
+  color: black;
+}
+.container .content .display{
+  margin-top: 50px;
+
+}
+.table thead, th{
+  color:  rgb(4, 146, 14);
+  text-transform: uppercase;
+}
+.table thead, th, .alert-success{
+    padding: 0px 25px;
+    color: rgb(9, 10, 10);
+    background: rgb(6, 193, 6);
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.table th, td, tbody{
+  border-collapse: collapse;
+  font-size: large;
+  font-weight: 900;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1px;
+  border-radius: 1px;
+  background: white;
+  text-align: center;
+  width: 500px;
+}
+.container .content .table ,th, td{
+  font-weight: 900;
+  text-align: center;
+  border-collapse: collapse;
+  min-width: 100%;
+  color: solid black;
+  border: 1px solid black;
+  padding: 10px;
+}
+.table .edit{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 25px;
+  font-size: 20px;
+  background: rgb(15, 49, 107);
+  color: white;
+}
+.table .edit:hover{
+  background: rgb(199, 173, 26);
+  color: black;
+}
+
+.table .delete{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 25px;
+  font-size: 20px;
+  background: rgb(157, 12, 12);
+  color: white;
+}
+.table .delete:hover{
+  background: rgb(199, 173, 26);
+  color: black;
+}
+
+.reg-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+ .btn{
+  padding: 0px 25px;
+  font-size: 20px;
+  background: rgb(90, 85, 85);
+  color: white;
+  display: flex;
+  border-radius: 0%;
+}
+.btn:hover{
+  color: gold;
+}
+.reg-container form{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgb(37, 35, 35);
+  background: white;
+  text-align: center;
+  width: 500px;
+}
+
+.reg-container form h1 span{
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: rgb(180, 29, 29);
+}
+
+.reg-container form input{
+  width: 100%;
+  font-weight: 900;
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 8px 0;
+ background: rgb(208, 200, 200);
+ border-radius: 5px; 
+ cursor: pointer;
+}
+
+
+.reg-container form select{
+  width: 100%;
+  font-weight: 900;
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 8px 0;
+ background: rgb(208, 200, 200);
+ color: grey;
+ border-radius: 5px; 
+ cursor: pointer;
+}
+
+.reg-container form input:hover{
+  background: rgb(124, 194, 237);
+  color: black;
+}
+.reg-container form select option{
+  background: rgb(208, 200, 200);
+  color: grey;
+  font-weight: 900;
+}
+
+.reg-container form .form-btn{
+  background: rgb(196, 184, 114);
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.reg-container form .form-btn:hover{
+  background: gold;
+}
+
+.reg-container form p{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(188, 105, 3);
+}
+
+.reg-container form p a{
+  color: rgb(18, 3, 192);
+  font-weight: 900;
+}
+
+.reg-container form p a:hover{
+  color: green;
+}
+
+.reg-container .text-danger{
+  margin: 10px 0;
+  color: rgb(220, 0, 0);
+  border-radius: 0px;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 5px;
+}
+
+.reg-container .alert-success{
+    margin: 10px 0;
+    color: rgb(9, 10, 10);
+    background: rgb(6, 193, 6);
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 3px;
+  }
+  .reg-container .alert-danger{
+    margin: 10px 0;
+    color: rgb(9, 10, 10);
+    background: rgb(220, 0, 0);
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 3px;
+  }
+:root {
+    --surface-color: #fff;
+    --curve: 40;
+  }
+  
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background:linear-gradient(-45deg, #281313,rgb(33, 26, 45), #2d2316 );
+    background-size: 400% auto;
+    animation: animate 15s ease-in-out infinite;
+  }
+  
+  @keyframes animate{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0rem;
+    margin: 2rem 1vw;
+    padding: 50px;
+    list-style-type: none;
+  }
+  
+  .card {
+    position: relative;
+    display: block;
+    height: 100%;  
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 100px;
+  }
+  
+  .card__image {      
+    width: 100%;
+    height: 90%;
+  }
+  
+  .card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;      
+    border-radius: calc(var(--curve) * 1px);    
+    background-color: var(--surface-color);      
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card:hover .card__overlay {
+    transform: translateY(0);
+  }
+  
+  .card__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    border-radius: calc(var(--curve) * 1px) 0 0 0;    
+    background-color: var(--surface-color);
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;      
+    z-index: 1;
+  }
+  
+  .card__arc path {
+    fill: var(--surface-color);
+    d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+  }       
+  
+  .card:hover .card__header {
+    transform: translateY(0);
+  }
+  
+  .card__thumb {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;      
+    border-radius: 50%;      
+  }
+  
+  .card__title {
+    font-size: 1.5em;
+    margin: 0 0 .3em;
+    color: #6A515E;
+  }
+  
+  .card__tagline {
+    display: block;
+    margin: 1em 0;
+    font-family: "MockFlowFont";  
+    font-size: .8em; 
+    color: #D7BDCA;  
+  }
+  
+  .card__status {
+    font-size: .9em;
+    font-weight: 700;
+    color: #ab98a2;
+  }
+
+  .card__description {
+    padding: 0 2em 2em;
+    margin: 0;
+    color: #825a6e;
+    font-family: "MockFlowFont";   
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }    
